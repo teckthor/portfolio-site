@@ -2,9 +2,8 @@
   <div class="container">
     
     <Header />
-    <Bio />
-    <Cards />
-    <Footer />
+    <!-- <Cards /> -->
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -12,12 +11,12 @@
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 import Cards from '~/components/Cards.vue'
-import Bio from '~/components/Bio.vue'
+// import Bio from '~/components/Bio.vue'
 
 export default {
   components: {
     Header,
-    Bio,
+    // Bio,
     Cards,
     Footer
   }
@@ -26,6 +25,7 @@ export default {
 
 <style>
 .container {
+  /* background-color: rgb(226, 226, 226); */
   max-width: 100%;
   margin: 0;
 }

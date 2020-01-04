@@ -4,6 +4,10 @@
       exercitationem odio, temporibus maxime corporis placeat nam esse 
       saepe, optio fugit quod libero deserunt sunt possimus sequi. 
       Praesentium, saepe? Ex, quasi?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus 
+      exercitationem odio, temporibus maxime corporis placeat nam esse 
+      saepe, optio fugit quod libero deserunt sunt possimus sequi. 
+      Praesentium, saepe? Ex, quasi?
   </div>
 </template>
 
@@ -15,12 +19,16 @@ export default {
 
 <style >
 .container__bio {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  max-width: 70%;
+  margin-top: 160px;
+  /* padding-bottom: 20px; */
+  /* width: 80%; */
+  height: auto;
+  /* margin: 0 auto; */
+  /* display: flex; */
+  /* justify-content: center; */
+  max-width: 50%;
   text-align: center;
+  font-size: 1.3em;
+  text-align: justify;
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-      <h1>Desenvolvido por Ademar Cardoso</h1>
+      <h1>Desenvolvido por 
+        <a href="#" title="Nome do criador do site, Ademar Cardoso">Ademar Cardoso</a>
+      </h1>
   </div>  
 </template>
 
@@ -11,11 +13,19 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 .container {
-  width: 100%;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 70%;
   height: 5vh;
-  /* background-color: red; */
-  /* bottom: 0; */
-  position: absolute;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+.container h1 a {
+  font-family: 'Lexend Deca', sans-serif;
+  color: black;
+  text-decoration-color: black;
 }
 </style>
