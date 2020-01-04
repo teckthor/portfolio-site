@@ -10,12 +10,12 @@
 
   <Bio />
 
-  <!-- <div class="links-bio">
+  <div class="links-bio">
     <a href="https://github.com/teckthor" title="Link para a conta do github"><i class="fab fa-github"></i></a>
     <a href="http://#" title="Link para a conta do medium"><i class="fab fa-medium"></i></a>
     <a href="http://#" title="Link para a conta do instagram"><i class="fab fa-instagram"></i></a>
     <a href="http://#" title="Link para a conta do linkedin"><i class="fab fa-linkedin"></i></a>
-  </div> -->
+  </div>
 
   </div>  
 </template>
@@ -42,7 +42,6 @@ export default {
   display: flex;
   margin: 0 35px 0 35px;
   width: 20%;
-  /* position: relative; */
   border-radius: 20px;
   margin-top: 45px; 
 }
@@ -59,40 +58,32 @@ export default {
   height: 80px;
 }
 
-/* .name-perfil::after {
-  content: " _";
-  animation: blink 0.8s ease-in-out infinite;
-} */
-
 .links-bio {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  float: right;
+  margin-left: 85px;
 }
 
-a i {
-  margin-top: 15px;
+.links-bio a:not(:first-child) {
+  padding-top: 15px;
+}
+
+a {
   margin-left: 20px;
-  font-size: 2em;
+  font-size: 2.3em;
   transition: all .2s;
 }
-a i:hover{
+a:hover{
   -moz-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-
 @keyframes blink {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
 }
-
-/* .background {
-  margin: 0 auto;
-  display: block;
-  width: 100% !important;
-  position: absolute;
-  height: 350px;
-  filter: brightness(50%);
-} */
 
 </style>
